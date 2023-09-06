@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/github.io/ReactMovieProject/static/css/main.334bdeb1.css",
-    "main.js": "/github.io/ReactMovieProject/static/js/main.3c159a91.js",
-    "index.html": "/github.io/ReactMovieProject/index.html",
-    "static/media/search.svg": "/github.io/ReactMovieProject/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
-    "main.334bdeb1.css.map": "/github.io/ReactMovieProject/static/css/main.334bdeb1.css.map",
-    "main.3c159a91.js.map": "/github.io/ReactMovieProject/static/js/main.3c159a91.js.map"
+    "main.css": "/ReactMovieProject/static/css/main.334bdeb1.css",
+    "main.js": "/ReactMovieProject/static/js/main.9a6110ae.js",
+    "index.html": "/ReactMovieProject/index.html",
+    "static/media/search.svg": "/ReactMovieProject/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
+    "main.334bdeb1.css.map": "/ReactMovieProject/static/css/main.334bdeb1.css.map",
+    "main.9a6110ae.js.map": "/ReactMovieProject/static/js/main.9a6110ae.js.map"
   },
   "entrypoints": [
     "static/css/main.334bdeb1.css",
-    "static/js/main.3c159a91.js"
+    "static/js/main.9a6110ae.js"
   ]
 }
