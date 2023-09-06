@@ -7,7 +7,6 @@ const API_KEY = '20b44604104cb5298e803523525389d6';
 const API_URL = 'https://api.themoviedb.org/3/search/movie';
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
-
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -40,26 +39,24 @@ const App = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-         <img
-            src={SearchIcon}
-            alt="search"
-            onClick={() => searchMovies(searchTerm)}
+        <img
+          src={SearchIcon}
+          alt="search"
+          onClick={() => searchMovies(searchTerm)}
         />
       </div>
 
-      {
-        movies?.length > 0 ? (
-          <div className="container">
-            {movies.map((movie) => (
-              <MovieCard key={movie.id} movie={movie} /> 
-            ))}
-          </div>
-        ) : (
-          <div className="empty">
-            <h2>No movies Found</h2>
-          </div>
-        )
-      }
+      {movies?.length > 0 ? (
+        <div className="container">
+          {movies.map((movie) => (
+            <MovieCard key={movie.id} movie={movie} />
+          ))}
+        </div>
+      ) : (
+        <div className="empty">
+          <h2>No movies Found</h2>
+        </div>
+      )}
     </div>
   );
 };
